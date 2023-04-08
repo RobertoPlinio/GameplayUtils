@@ -1,0 +1,18 @@
+{
+    "name": "SystemEnumFlagEditor",
+    "rootNamespace": "SystemEnumFlag",
+    "references": [
+        "GUID:54799953a8d7cd146b68161e816f20be"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
