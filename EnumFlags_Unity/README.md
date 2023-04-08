@@ -1,12 +1,11 @@
 # Enum Flags in unity, two ways<br>
-<br>
 
-## Enum Flags Attribute
+## [Enum Flags Attribute](https://github.com/RobertoPlinio/GameplayUtils/tree/master/EnumFlags_Unity/EnumFlagsAttribute)
 This attribute is used on an enum you want to act as a flag mask, while the base enum behaves standardly.<br>
 Use this if having a flag mask is an exception.<br>
 Just use the attribute `[EnumFlags]` above your field.
-<br>
-## System Enum Flag
+
+## [System Enum Flag](https://github.com/RobertoPlinio/GameplayUtils/tree/master/EnumFlags_Unity/SystemEnumFlag)
 This uses the System.Flags attribute on your base enum to transform it into a flag mask.<br><br>
 Another attribute, SingleEnumFlagSelectAttribute exists on an enum you want to only allow one flag to be selected at a time.
 Use this if having an unique flag value is an exception.<br>
